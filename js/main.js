@@ -19,7 +19,7 @@ function clickPortfolio() {
 }
 function clickBlog() {
 	console.log("Gallery");
-	window.open("https://rebrand.ly/blueskyzii");
+	window.open("https://rebrand.ly/blueskyzi");
 }
 function clickProject() {
 	console.log("Project");
