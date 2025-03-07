@@ -99,6 +99,7 @@ body {
 /* MAIN CONTENT */
 .main {
 	display: flex;
+	flex-flow: column;
 	justify-content: center; /* Pusat secara horizontal */
 	align-items: center; /* Pusat secara vertikal */
 	height: auto; /* Pastikan tinggi penuh */
@@ -133,21 +134,22 @@ hr {
 	padding: 20px;
 	border-radius: 10px;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-	width: 90%;
-	max-width: 600px;
+	width: 97%;
 }
 
-h2 {
+.h2-skill {
+	border-bottom: 2px solid #ff9900;
+	width: 50%;
 	display: inline-block;
-	padding-bottom: 5px;
+	padding-top: 20px;
 }
 
 .icons {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	gap: 15px;
-	margin: 20px 0;
+	gap: 40px;
+	margin: 10px 0 20px 0;
 }
 
 .icons img {
@@ -165,7 +167,7 @@ h2 {
 	display: flex;
 	justify-content: center;
 	gap: 20px;
-	margin-top: 20px;
+	margin: 0 0 20px 0;
 }
 
 .category {
@@ -224,7 +226,7 @@ h2 {
 	border: none;
 	height: 2px;
 	background-color: #ff9900;
-	width: 90%; /* Atur panjang garis */
+	width: 40%; /* Atur panjang garis */
 }
 
 /* RESPONSIV MOBILE */
