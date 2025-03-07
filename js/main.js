@@ -25,3 +25,8 @@ function clickProject() {
 	console.log("Project");
 	alert("Fitur ini belum dibuka");
 }
+
+gtag("event", "NEW_WEB", {
+	event_category: "authentication",
+	event_label: "Login Sukses",
+});
